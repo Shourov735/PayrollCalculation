@@ -11,9 +11,10 @@ public class PayrollSystem {
                 BasePlusCommissionEmployee baseEmployee = (BasePlusCommissionEmployee) employee;
                 baseEmployee.increaseBaseSalaryBy10Percent();
             }
-            System.out.println("\n----------------------------");
+            System.out.println("\n-----------------------------------------------");
             System.out.println(employee.toString());
             System.out.printf("Earned: %.2f", employee.earnings());
         }
+        System.out.println("\n-----------------------------------------------");
     }
 }

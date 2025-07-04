@@ -21,6 +21,6 @@ public class CommissionEmployee extends Employee{
     @Override
     public String toString() {
         return "Commission Employee: " + super.toString() +
-                String.format("\nGross Sales: %.2f; Commission Rate: %.2f", grossSales, commissionRate);
+                String.format("\nGross Sales: %.2f; Commission Rate: %.2f", getGrossSales(), getCommissionRate());
     }
 }
